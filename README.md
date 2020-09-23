@@ -1,7 +1,7 @@
 # DiscordBot
-A Discord bot wiritten in <a href="https://nodejs.org/">NodeJS</a>
+A Discord bot written in <a href="https://nodejs.org/">NodeJS</a>
 
-<u>Instalation Instructions</u>
+<b>Installation Instructions</b>
 1. Install NodeJS
 2. Clone the repo
 3. Run command <b>npm install discord.js</b>
