@@ -1,0 +1,12 @@
+
+#IDE
+.idea/*
+*.iml
+*.sublime-*
+.vscode/*
+.vs/*
+
+# Dependency directories
+node_modules
+
+package-lock.json
