@@ -5,17 +5,15 @@
     "readme": "README.md",
     "author": "Wingdings255",
     "maintainers": [
-      {
-        "name": "Wingdings255",
-        "url": "https://github.com/wingdings255"
-      }
+        {
+            "name": "Wingdings255",
+            "url": "https://github.com/wingdings255"
+        }
     ],
-
     "repository": {
         "type": "git",
         "url": "git+https://github.com/wingdings255/DiscordBot.git"
     },
-
     "main": "index.js",
     "dependencies": {
         "discord.js": "^12.3.1",
@@ -31,7 +29,6 @@
         "eslint-plugin-promise": "^4.2.1",
         "eslint-plugin-standard": "^4.0.1"
     },
-
     "scripts": {
         "start": "node ./index.js"
     }
