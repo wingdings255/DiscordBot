@@ -1,8 +1,7 @@
 # DiscordBot
 A Discord bot written in <a href="https://nodejs.org/">NodeJS</a>
 
-![Syntax Status](https://github.com/wingdings255/DiscordBot/workflows/Syntax%20check/badge.svg?event=pull_request)
-
+![Syntax Status](https://github.com/wingdings255/DiscordBot/workflows/Syntax%20Check/badge.svg?event=push)
 <b>Installation Instructions</b>
 1. Install NodeJS
 2. Clone the repo
