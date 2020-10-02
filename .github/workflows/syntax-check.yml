@@ -23,4 +23,7 @@ jobs:
       - name: npm install
         run: npm ci
       - name: Run EsLint
-        run: "npm run lint"
+        uses: Krizzu/eslint-check-action@v1.1.0
+        with:
+          ghToken: ${{ secrets.GITHUB_TOKEN }}
+          eslintConfig: ".eslintrc.json"
