@@ -1,0 +1,29 @@
+name: Syntax Check
+
+on: 
+  push:
+    branches: [master, development]
+  pull_request:
+    branches: [master, development]
+
+jobs:
+  EsLint:
+    name: ESLint checker
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: ['12.*']
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+            node-version: ${{ matrix.node-version }}
+      - name: npm install
+        run: npm ci
+      - name: Run EsLint
+        uses: ninosaurus/eslint-check@v5
+        with:
+          eslint-config-path: "./.eslintrc.json"
+          repo-token: ${{secrets.GITHUB_TOKEN}}
