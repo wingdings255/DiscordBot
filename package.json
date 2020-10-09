@@ -1,32 +1,32 @@
 {
-  "name": "devbot",
-  "version": "1.0.0",
-  "description": "Discord bot written with nodeJS",
-  "readme": "README.md",
-  "author": "Wingdings255",
-  "maintainers": [
-    {
-      "name": "Wingdings255",
-      "url": "https://github.com/wingdings255"
+    "name": "devbot",
+    "version": "1.0.0",
+    "description": "Discord bot written with nodeJS",
+    "readme": "README.md",
+    "author": "Wingdings255",
+    "maintainers": [
+        {
+            "name": "Wingdings255",
+            "url": "https://github.com/wingdings255"
+        },
+        {
+            "name": "nightforce69",
+            "url": "https://github.com/nightforce69"
+        },
+        {
+            "name": "jonah444",
+            "url": "https://github.com/jonah444"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wingdings255/DiscordBot.git"
     },
-    {
-      "name":"nightforce69",
-      "url":"https://github.com/nightforce69"
+    "main": "index.js",
+    "dependencies": {
+        "discord.js": "^12.3.1"
     },
-    {
-      "name": "jonah444",
-      "url": "https://github.com/jonah444"
+    "scripts": {
+        "start": "node ./index.js"
     }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wingdings255/DiscordBot.git"
-  },
-  "main": "index.js",
-  "dependencies": {
-    "discord.js": "^12.3.1"
-  },
-  "scripts": {
-    "start": "node ./index.js"
-  }
 }
