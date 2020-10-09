@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "description": "Discord bot written with nodeJS",
     "readme": "README.md",
+    "main": "index.js",
     "author": "Wingdings255",
+    "homepage": "https://github.com/wingdings255/DiscordBot#readme",
     "maintainers": [
         {
             "name": "Wingdings255",
@@ -22,9 +24,22 @@
         "type": "git",
         "url": "git+https://github.com/wingdings255/DiscordBot.git"
     },
-    "main": "index.js",
+    "bugs": {
+        "url": "https://github.com/wingdings255/arkserver-webui/issues"
+    },
     "dependencies": {
-        "discord.js": "^12.3.1"
+        "discord.js": "^12.3.1",
+        "typescript": "^4.0.3"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.3.0",
+        "@typescript-eslint/parser": "^4.3.0",
+        "eslint": "^7.10.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1"
     },
     "scripts": {
         "start": "node ./index.js"
