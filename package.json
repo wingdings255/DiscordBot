@@ -25,7 +25,7 @@
         "url": "git+https://github.com/wingdings255/DiscordBot.git"
     },
     "bugs": {
-        "url": "https://github.com/wingdings255/arkserver-webui/issues"
+        "url": "https://github.com/wingdings255/DiscordBot/issues"
     },
     "dependencies": {
         "discord.js": "^12.3.1",
