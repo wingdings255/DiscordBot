@@ -1,22 +1,22 @@
-name: Syntax Check
+name: Discord Bot CI
 
-on: 
+on:
   push:
     branches: [master, development]
-    paths: 
+    paths:
       - "**.js"
   pull_request:
     branches: [master, development]
-    paths: 
+    paths:
       - "**.js"
 
 jobs:
   EsLint:
-    name: ESLint checker
+    name: ESLint
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: ['12.*']
+        node-version: ['12.*','14.*']
     steps:
       - name: Checkout branch
         uses: actions/checkout@v2
